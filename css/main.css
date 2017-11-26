@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+
+}
+
+#conatiner {
+    background-color: crimson;
+}
+
+.hide {
+    display: none;
+}
+
+
+.me {
+    display: block;
+}
+
+header {
+    background-color: beige;
+    text-align: center;
+    font-family: cursive;
+    color: #4d0000;
+    padding: 1%;
+}
+
+main {
+    background: #4d0000;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+aside {
+    background-color: white;
+    color: #4d0000;
+    padding: 1%;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    color: #4d0000;
+    padding: 1%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 1%;
+}
+
+footer {
+    display: none;
+}
