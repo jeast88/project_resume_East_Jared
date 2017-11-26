@@ -60,6 +60,7 @@ footer {
 
     #container {
         width: 700px;
+        height: 900px;
         background-color: black;
         padding: 1%;
         margin: auto;
@@ -112,5 +113,79 @@ footer {
 
     h2 {
         color: beige;
+    }
+
+    footer {
+        background-color: beige;
+        clear: both;
+        margin-top: 30px;
+        height: 5%;
+        display: block;
+        text-align: center;
+        font-family: cursive;
+        outline-style: double;
+        outline-color: #4d0000;
+        outline-width: thick;
+    }
+}
+
+@media (min-width: 900px) {
+
+    #container {
+        width: 900px;
+        height: 1000px;
+        background-color: black;
+        padding: 1%;
+        margin: auto;
+    }
+
+    aside {
+        background-color: #4d0000;
+        float: right;
+        clear: both;
+        color: white;
+        width: 300px;
+        margin-top: 50px;
+        margin-right: 50px;
+        padding: 10px;
+        outline-style: double;
+        outline-color: white;
+        outline-width: thick;
+        text-align: center;
+    }
+
+    main {
+        background-color: #4d0000;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 50px;
+        padding-right: 50px;
+        color: white;
+        outline-style: double;
+        outline-color: white;
+        outline-width: thick;
+    }
+
+    article {
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-right: 50px;
+        outline-style: double;
+        outline-color: white;
+        outline-width: thick;
+    }
+
+    footer {
+        background-color: beige;
+        clear: both;
+        margin-top: 30px;
+        height: 5%;
+        display: block;
+        text-align: center;
+        font-family: cursive;
+        outline-style: double;
+        outline-color: #4d0000;
+        outline-width: thick;
     }
 }
