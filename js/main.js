@@ -9,6 +9,17 @@ me.addEventListener('click', picLink);
 mick.addEventListener('click', picLink);
 us.addEventListener('click', picLink);
 
+// Mouse Enter //
+
+var rs = document.getElementById('rs');
+var axr = document.getElementById('axr');
+var s = document.getElementById('s');
+
+
+rs.addEventListener('mouseenter', picLink);
+axr.addEventListener('mouseenter', picLink);
+s.addEventListener('mouseenter', picLink);
+
 function picLink() {
     var allImages = document.querySelectorAll('img');
 
