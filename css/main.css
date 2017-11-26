@@ -28,7 +28,6 @@ main {
     background: #4d0000;
     color: white;
     text-align: center;
-    margin: auto;
     padding: 1%;
 }
 
@@ -53,4 +52,65 @@ ul {
 
 footer {
     display: none;
+}
+
+/* Media Q */
+
+@media (min-width: 600px) {
+
+    #container {
+        width: 700px;
+        background-color: black;
+        padding: 1%;
+        margin: auto;
+        outline-style: double;
+        outline-color: #4d0000;
+        outline-width: thick;
+    }
+
+    header {
+        outline-style: double;
+        outline-color: #4d0000;
+        outline-width: thick;
+    }
+
+    aside {
+        background-color: #4d0000;
+        float: right;
+        clear: both;
+        color: white;
+        width: 300px;
+        margin-top: 50px;
+        padding: 10px;
+        outline-style: double;
+        outline-color: beige;
+        outline-width: thick;
+    }
+
+
+    main {
+        background-color: #4d0000;
+        width: 300px;
+        margin-top: 25px;
+        padding-right: 50px;
+        color: white;
+        outline-style: double;
+        outline-color: beige;
+        outline-width: thick;
+    }
+
+    article {
+        background-color: #4d0000;
+        color: white;
+        width: 300px;
+        margin-top: 20px;
+        padding-right: 50px;
+        outline-style: double;
+        outline-color: beige;
+        outline-width: thick;
+    }
+
+    h2 {
+        color: beige;
+    }
 }
