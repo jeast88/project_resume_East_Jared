@@ -35,3 +35,11 @@ function picLink() {
         pic.className = 'hide';
     }
 }
+
+// cycle plugin //
+
+$(document).ready(function () {
+    $('.slideshow').cycle({
+        fx: 'fade'
+    });
+});
