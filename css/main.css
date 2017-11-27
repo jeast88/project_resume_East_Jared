@@ -54,9 +54,6 @@ ul {
     padding: 1%;
 }
 
-footer {
-    display: none;
-}
 
 /* Media Q */
 
@@ -119,18 +116,6 @@ footer {
         color: beige;
     }
 
-    footer {
-        background-color: beige;
-        clear: both;
-        margin-top: 100px;
-        height: 5%;
-        display: block;
-        text-align: center;
-        font-family: cursive;
-        outline-style: double;
-        outline-color: #4d0000;
-        outline-width: thick;
-    }
 }
 
 @media (min-width: 900px) {
@@ -184,16 +169,4 @@ footer {
         margin: auto;
     }
 
-    footer {
-        background-color: beige;
-        clear: both;
-        margin-top: 100px;
-        height: 5%;
-        display: block;
-        text-align: center;
-        font-family: cursive;
-        outline-style: double;
-        outline-color: #4d0000;
-        outline-width: thick;
-    }
 }
