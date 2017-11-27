@@ -43,3 +43,22 @@ $(document).ready(function () {
         fx: 'fade'
     });
 });
+
+// Flurry Plugin //
+$(document).ready(function () {
+
+    // Snow toggle
+    $('.toggle-snow').on('click', function (event) {
+
+        event.preventDefault();
+
+        try {
+            $('body').flurry('destroy');
+        }
+        catch (err) {
+        }
+        finally {
+            $('body').flurry();
+        }
+    });
+});
